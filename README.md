@@ -47,3 +47,15 @@ $ response.css("div.row div.col-md-8 div.quote span.text::text").getall()
 $ response.xpath("//div[@class='row']//div[@class='col-md-8'] /div[@class='quote']/ span[@class='text']/text()").extract()
 
 ```
+
+## Robots.txt
+
+> Revisarlo para definir que puedes ver o que no puedes ver.
+
+- User-Agent: hace referencia al bot que está haciendo la petición al sitio, * (son todos)
+- Disallow: las rutas q estan deshabilitados
+- Allow: lo que esta permitido(excepcción, no puedes visualizar lo que esta disallow pero si puedes los q estan en allow)
+
+**Entrar al archivo robots.txt**
+
+En la url del sitio poner `https://sitio.com/robots.txt`
